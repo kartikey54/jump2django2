@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -11,10 +12,11 @@
     <title>Sign the Guest Book</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="bootstrap.min.css" rel="stylesheet">
+    <link href="{% static 'hw/bootstrap.min.css' %}" rel="stylesheet"> 
 
     <!-- Custom styles for this template -->
-    <link href="sign.css" rel="stylesheet">
+    <!-- <link href="sign.css" rel="stylesheet"> -->
+    <link href="{% static 'hw/sign.css' %}" rel="stylesheet">
   </head>
 
   <body>
